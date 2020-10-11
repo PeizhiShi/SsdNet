@@ -3,7 +3,7 @@ Created by Peizhi Shi at University of Huddersfield. If you have any questions a
 
 ### Introduction
 
-The MsvNet is a novel learning-based intersecting feature recognition and localisation method. At the time of its release, the SsdNet achieves the state-of-the-art intersecting feature recognition and localisation performance. This is an open access peer-reviewed paper, which will be available online soon. This repository provides the source codes of the SsdNet. 
+The SsdNet is a novel learning-based intersecting feature recognition and localisation method. At the time of its release, the SsdNet achieves the state-of-the-art intersecting feature recognition and localisation performance. This is an open access peer-reviewed paper, which will be available online soon. This repository provides the source codes of the SsdNet. 
 
 ### Experimental configuration
 
@@ -31,9 +31,9 @@ All the experiments mentioned in our paper are conducted on Ubuntu 18.04 under t
 
 ### Intersecting feature recognition and localisation
 
-1. Get the SsdNet source code by cloning the repository: `git clone https://github.com/PeizhiShi/MsvNet.git`.
+1. Get the SsdNet source code by cloning the repository: `git clone https://github.com/PeizhiShi/SsdNet.git`.
 2. Download the benchmark multi-feature [dataset](https://1drv.ms/u/s!At5UoWCCWHUKafomIKnOJnsl0Dg?e=lbK8iw), and put them in the folder `data/`.
-3. Download the pretrained optimal SsdNet model, and put them int the folder `??`.  
+3. Download the pretrained SsdNet model, and put it into the folder `??`.  
 4. Run `python multi_test.py` to test the performances of the SsdNet for intersecting feature recognition and localisation.
 
 
