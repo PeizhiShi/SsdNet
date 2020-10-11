@@ -10,13 +10,11 @@ The SsdNet is a novel learning-based intersecting feature recognition and locali
 1. CUDA (10.0.130)
 2. cupy-cuda100 (6.2.0)
 3. numpy (1.17.4)
-4. Pillow (6.2.1)
-5. python (3.6.8)
-6. pyvista (0.22.4)
-7. scikit-image (0.16.2)
-8. scipy (1.3.3)
-9. torch (1.1.0)
-10. torchvision (0.3.0)
+4. python (3.6.8)
+5. scikit-image (0.16.2)
+6. scipy (1.3.3)
+7. torch (1.1.0)
+8. torchvision (0.3.0)
 
 All the experiments mentioned in our paper are conducted on Ubuntu 18.04 under the above experimental configurations. If you run the code on the Windows or under different configurations, slightly different results might be achieved.
 
