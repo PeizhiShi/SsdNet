@@ -35,19 +35,19 @@ All the experiments mentioned in our paper are conducted on Ubuntu 18.04 under t
 ### Training (optional)
 
 1. Get the SsdNet source code by cloning the repository: `git clone https://github.com/PeizhiShi/SsdNet.git`.
-2. Create the following folders: `data/TrSet, data/ValSet, data/FNSet, weights and weights/base'. 
+2. Create the following folders: `data/TrSet`, `data/ValSet`, `data/FNSet`, `weights` and `weights/base`. 
 3. Download the FeatureNet [dataset](https://github.com/madlabub/Machining-feature-dataset), and convert them into voxel models via [binvox](https://www.patrickmin.com/binvox/). The filename format is `label_index.binvox`. Then put all the `*.binvox` files in a same folder `data/FNSet`. This folder is supposed to contain 24,000 `*.binvox` files. Please note there are some unlabelled/mislabelled files in category 8 (rectangular_blind_slot) and 12 (triangular_blind_step). Before moving these files in the same folder, please correct these filenames.
 4. Run `python create_tr_set.py` and `python create_val_set.py` to create training and validation sets respectively. Please note that training set creation process is time-consuming.
-5. Download the pretrained SSD300 [basenet](https://s3.amazonaws.com/amdegroot-models/ssd_300_VOC0712.pth), and put it in the folder `weights/base'. This pretrained model is utilised for transfer learning.  
+5. Download the pretrained SSD300 [basenet](https://s3.amazonaws.com/amdegroot-models/ssd_300_VOC0712.pth), and put it in the folder `weights/base`. This pretrained model is utilised for transfer learning.  
 6. Run `python train.py` to train the neural network. 
 
 
 ### Intersecting feature recognition and localisation
 
 1. Get the SsdNet source code by cloning the repository: `git clone https://github.com/PeizhiShi/SsdNet.git`.
-2. Create the folder named 'data/MulSet'.
+2. Create the folder named `data/MulSet`.
 3. Download the benchmark multi-feature [dataset](https://1drv.ms/u/s!At5UoWCCWHUKafomIKnOJnsl0Dg?e=lbK8iw), and put them in the folder `data/MulSet`.
-4. Download our pretrained SsdNet model, and put it into the folder `weights'. This model allows for achieving the experimental results reported in our IEEE TII paper. This step could be skipped if you have trained the neural network by yourself.  
+4. Download our pretrained SsdNet model, and put it into the folder `weights`. This model allows for achieving the experimental results reported in our IEEE TII paper. This step could be skipped if you have trained the neural network by yourself.  
 5. Run `python test.py` to test the performances of the SsdNet for intersecting feature recognition and localisation.
 
 
