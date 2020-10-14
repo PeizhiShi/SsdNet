@@ -3,7 +3,18 @@ Created by Peizhi Shi at University of Huddersfield. If you have any questions a
 
 ### Introduction
 
-The SsdNet is a novel learning-based intersecting feature recognition and localisation method. At the time of its release, the SsdNet achieves the state-of-the-art intersecting feature recognition and localisation performance. This is an open access peer-reviewed paper, which will be available online soon. This repository provides the source codes of the SsdNet. 
+The SsdNet is a novel learning-based intersecting feature recognition and localisation method. At the time of its release, the SsdNet achieves the state-of-the-art intersecting feature recognition and localisation performance. This repository provides the source codes of the SsdNet. 
+
+This is an open access peer-reviewed paper, which is available online. If this project is useful to you, please consider citing our paper:
+
+    @ARTICLE{9222288,
+      author={P. {Shi} and Q. {Qi} and Y. {Qin} and P. {Scott} and X. {Jiang}},
+      journal={IEEE Transactions on Industrial Informatics}, 
+      title={Intersecting machining feature localisation and recognition via single shot multibox detector}, 
+      year={2020},
+      volume={},
+      number={},
+      pages={1-1},}
 
 ### Experimental configuration
 
