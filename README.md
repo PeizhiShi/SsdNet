@@ -8,13 +8,13 @@ The SsdNet is a novel learning-based intersecting feature recognition and locali
 This is an open access peer-reviewed paper, which is available online. If this project is useful to you, please consider citing our paper:
 
     @ARTICLE{9222288,
-      author={P. Shi and Q. Qi and Y. Qin and P. Scott and X. Jiang},
+      author={Shi, Peizhi and Qi, Qunfen and Qin, Yuchu and Scott, Paul J and Jiang, Xiangqian},
       journal={IEEE Transactions on Industrial Informatics}, 
       title={Intersecting machining feature localisation and recognition via single shot multibox detector}, 
       year={2020},
-      volume={},
-      number={},
-      pages={1-1}
+      volume={?},
+      number={?},
+      pages={?}
      }
 
 ### Experimental configuration
@@ -28,7 +28,7 @@ This is an open access peer-reviewed paper, which is available online. If this p
 7. torch (1.1.0)
 8. torchvision (0.3.0)
 
-All the experiments mentioned in our paper are conducted on Ubuntu 18.04 under the above experimental configurations. If you run the code on the Windows or under different configurations, slightly different results might be achieved.
+All the experiments mentioned in our paper are conducted on Ubuntu 18.04 under the above experimental configurations. An Intel i9-9900X PC with a 128 GB memory and NVIDIA RTX 2080ti GPU is employed in this paper. If you run the code on the Windows or under different configurations, slightly different results might be achieved.
 
 
 ### Training (optional)
