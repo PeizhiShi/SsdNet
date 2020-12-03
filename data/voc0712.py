@@ -414,7 +414,7 @@ class VOCDetection(data.Dataset):
             self.num_samples = int(len([name for name in os.listdir(self.DIR) if os.path.isfile(os.path.join(self.DIR, name))])/2)
             
         elif phase == 'train':
-            self.DIR = 'data/TrSet512/'
+            self.DIR = 'data/TrSet/'
             self.num_samples = int(len([name for name in os.listdir(self.DIR) if os.path.isfile(os.path.join(self.DIR, name))])/2)
             
             #self.num_samples = 143469
