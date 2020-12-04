@@ -25,10 +25,10 @@ This is a peer-reviewed paper, which is available [online](https://doi.org/10.11
 1. CUDA (10.0.130)
 2. cupy-cuda100 (6.2.0)
 3. numpy (1.17.4)
-4. python (3.6.8)
+4. **python (3.6.8)**
 5. scikit-image (0.16.2)
 6. scipy (1.3.3)
-7. torch (1.1.0)
+7. **torch (1.1.0)**
 8. torchvision (0.3.0)
 9. **matplotlib (3.1.2)**
 
