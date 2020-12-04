@@ -30,6 +30,7 @@ This is a peer-reviewed paper, which is available [online](https://doi.org/10.11
 6. scipy (1.3.3)
 7. torch (1.1.0)
 8. torchvision (0.3.0)
+9. matplotlib (3.1.2)
 
 All the experiments mentioned in our paper are conducted on Ubuntu 18.04 under the above experimental configurations. An Intel i9-9900X PC with a 128 GB memory and NVIDIA RTX 2080ti GPU is employed in this paper. If you run the code on the Windows or under different configurations, slightly different results might be achieved.
 
