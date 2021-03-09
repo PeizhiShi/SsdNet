@@ -8,15 +8,15 @@ The SsdNet is a novel learning-based intersecting feature recognition and locali
 
 If this project is useful to you, please consider citing our paper:
 
-    @ARTICLE{9222288,
-      author={Shi, Peizhi and Qi, Qunfen and Qin, Yuchu and Scott, Paul J and Jiang, Xiangqian},
-      journal={IEEE Transactions on Industrial Informatics}, 
-      title={Intersecting machining feature localisation and recognition via single shot multibox detector}, 
-      year={2020},
-      volume={?},
-      number={?},
-      pages={?}
-     }
+    @ARTICLE{shi2020intersecting,
+	    author={Shi, Peizhi and Qi, Qunfen and Qin, Yuchu and Scott, Paul and Jiang, Xiangqian},
+	    journal={IEEE Transactions on Industrial Informatics}, 
+	    title={Intersecting machining feature localization and recognition via single shot multibox detector}, 
+	    year={2021},
+	    volume={17},
+	    number={5},
+	    pages={3292--3302}
+    }
 
 This is a peer-reviewed paper, which is available [online](https://doi.org/10.1109/TII.2020.3030620). 
 
