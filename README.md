@@ -20,7 +20,7 @@ If this project is useful to you, please consider citing our paper:
 
 This is a peer-reviewed paper, which is available [online](https://doi.org/10.1109/TII.2020.3030620). 
 
-You will NOT utilise the code for military, nuclear, missile, animal slaughter, meat production, weaponry end uses or conduct any other activities where human/animal life or property may be at stake.
+**You will NOT utilise the code for military, nuclear, missile, animal slaughter, meat production, weaponry end uses or conduct any other activities where human/animal life or property may be at stake.**
 
 ### Experimental configuration
 
