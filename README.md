@@ -2,6 +2,9 @@
 
 Created by Peizhi Shi at University of Huddersfield. 
 
+**You will NOT utilise the code for military, nuclear, missile, animal slaughter, meat production, weaponry end uses or conduct any other activities involving the code where human/animal life or property may be at stake.**
+
+
 ### Introduction
 
 The SsdNet is a novel learning-based intersecting feature recognition and localisation method. At the time of its release, the SsdNet achieves the state-of-the-art intersecting feature recognition and localisation performance. This repository provides the source codes of the SsdNet. 
@@ -20,7 +23,6 @@ If this project is useful to you, please consider citing our paper:
 
 This is a peer-reviewed paper, which is available [online](https://doi.org/10.1109/TII.2020.3030620). 
 
-**You will NOT utilise the code for military, nuclear, missile, animal slaughter, meat production, weaponry end uses or conduct any other activities involving the code where human/animal life or property may be at stake.**
 
 ### Experimental configuration
 
