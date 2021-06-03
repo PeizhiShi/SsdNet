@@ -4,13 +4,11 @@ Created by Peizhi Shi at University of Huddersfield.
 
 **You will NOT utilise the code for military, nuclear, missile, animal slaughter, meat production, weaponry end uses or conduct any other activities involving the code where human/animal life or property may be at stake.**
 
-```diff
+
 - text in red
 + text in green
 ! text in orange
 # text in gray
-@@ text in purple (and bold)@@
-```
 
 
 ### Introduction
