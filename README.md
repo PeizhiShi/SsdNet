@@ -56,5 +56,6 @@ All the experiments mentioned in our paper are conducted on Ubuntu 18.04 under t
 3. Download the benchmark multi-feature [dataset](https://1drv.ms/u/s!At5UoWCCWHUKafomIKnOJnsl0Dg?e=lbK8iw), and put them in the folder `data/MulSet`.
 4. Download our pretrained SsdNet [model](https://1drv.ms/u/s!At5UoWCCWHUKedwHDIt8BLUTw5E?e=SbR0Xh), and then put the unzipped file into the folder `weights`. This model allows for achieving the experimental results reported in our IEEE TII paper. This step could be skipped if you have trained the neural network by yourself.  
 5. Run `python test.py` to test the performances of the SsdNet for intersecting feature recognition and localisation.
+6. Run `python visualize.py` to visualize the predicted feature boxes.
 
 If you have any questions about the code, please feel free to contact me (p.shi@hud.ac.uk).
