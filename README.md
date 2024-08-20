@@ -2,7 +2,7 @@
 
 Created by Peizhi Shi at University of Huddersfield. 
 
-**Please do NOT utilise the code for military, nuclear, missile, animal slaughter, meat production, weaponry end uses or conduct any other activities involving the code where human/animal life or property may be at stake.**
+**Please note that the code is NOT intended for use in military, nuclear, missile, weaponry applications, or in activities involving animal slaughter, meat production, or any other scenarios where human or animal life, or property, could be at risk. We kindly ask you to refrain from applying the code in such contexts.**
 
 
 ### Introduction
@@ -58,4 +58,4 @@ All the experiments mentioned in our paper are conducted on Ubuntu 18.04 under t
 5. Run `python test.py` to test the performances of the SsdNet for intersecting feature recognition and localisation.
 6. Run `python visualize.py` to visualize the predicted feature boxes.
 
-If you have any questions about the code, please feel free to contact me (p.shi@hud.ac.uk).
+If you have any questions about the code, please feel free to contact me (p.shi@leeds.ac.uk).
